@@ -1,0 +1,5 @@
+a=input("Adınız Soyadınız : ")
+kilo=float(input("kilonuz : "))
+boy=float(input("Boyunuz : "))
+vucut=kilo/(boy**2)
+print("Sayın {} vücut kitle endeksiniz : {}".format(a,vucut))
